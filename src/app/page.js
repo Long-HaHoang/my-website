@@ -1,12 +1,18 @@
-import { Roboto } from "next/font/google";
 import styles from "./page.module.css";
-
-const roboto = Roboto({ subsets: ["latin"] });
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Hello website under construction</h1>
-    </main>
+    <>
+      <header className={styles.header}>
+        <h1>This is the website header</h1>
+      </header>
+      <main className={styles.main}>
+        <p>Website under construction.</p>
+      </main>
+      <footer>
+        <Link href={"/Imprint"}>Imprint (Impressum)</Link>
+      </footer>
+    </>
   );
 }
