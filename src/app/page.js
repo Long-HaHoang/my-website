@@ -14,10 +14,12 @@ export default function Home() {
         <p>Meanwhile you can check this out.</p>
         <ul>
           <li>
-            <Link href={"/github"}>My Github</Link>
+            <Link href={"https://github.com/Long-HaHoang"}>My Github</Link>
           </li>
           <li>
-            <Link href={"/linkedin"}>My LinkedIn</Link>
+            <Link href={"https://www.linkedin.com/in/long-ha-hoang-213018260/"}>
+              My LinkedIn
+            </Link>
           </li>
         </ul>
       </main>
