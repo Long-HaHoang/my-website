@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Link from "next/link";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -9,11 +10,18 @@ export default function Home() {
       </header>
       <main className={styles.main}>
         <p>This website is under construction.</p>
+        <br />
+        <p>Meanwhile you can check this out.</p>
+        <ul>
+          <li>
+            <Link href={"/github"}>My Github</Link>
+          </li>
+          <li>
+            <Link href={"/linkedin"}>My LinkedIn</Link>
+          </li>
+        </ul>
       </main>
-      <footer>
-        <Link href={"/Imprint"}>Imprint (Impressum)</Link>
-        <Link href={"/DataPrivacy"}>Data Privacy (Datenschutz)</Link>
-      </footer>
+      <Footer />
     </>
   );
 }
