@@ -2,6 +2,10 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Homepage",
+};
+
 export default function Home() {
   return (
     <>
