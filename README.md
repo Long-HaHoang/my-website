@@ -1,6 +1,6 @@
 # Test website.
 
-this project will be archive.
+this project will be archived.
 It's written in Next.js 13 beta with app directory.
 
 I still need to learn more about it.
